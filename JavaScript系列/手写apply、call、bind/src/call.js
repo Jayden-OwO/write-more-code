@@ -6,3 +6,14 @@ Function.prototype.myCall = function (context) {
   delete context.fn;
   return result;
 };
+
+let obj = {
+  name: "测试name",
+  value: "测试value",
+};
+
+function testMyCall(...args) {
+  console.log(this.name, "其他参数", args);
+}
+
+testMyApply.myCall(obj, 1, 2, 444);
