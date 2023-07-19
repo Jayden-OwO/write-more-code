@@ -1,0 +1,21 @@
+{
+  "name": "write-more-code",
+  "version": "1.0.0",
+  "description": "手写一些实现",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jayden-OwO/write-more-code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jayden-OwO/write-more-code/issues"
+  },
+  "homepage": "https://github.com/Jayden-OwO/write-more-code#readme"
+}
